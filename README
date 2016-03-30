@@ -1,0 +1,28 @@
+Brady Auen
+
+Controls
+----------
+Rotate the camera with the arrow keys
+'U' moves the robot forward
+'J' moves the robot backward
+'H' turns the robot left
+'K' turns the robot right
+'PGUP' and 'PGDN' zoom in and out
+'p' changes the perspective between first person, third person, and the default view we've used thus far in the course
+'b' transforms from human to vehicle form, hold it down until the transformation is complete, the legs are supposed to come off as that's how I remember it being in the cartoon
+'Spacebar' transforms from vehicle to human form, hold it down until the transformation is complete
+
+Cool things I'd like noticed
+-----------------------------
+Making the robot walk took me a long time, the transformations involved to animate movement and keep it together when it was in different places in the environment was really difficult. Likewise for making 
+it transform and not fly into 7 different pieces (aside from the legs which is on purpose).  The textures look kind of basic, and they are, but that's cause I made them all myself aside from the wheels and
+the sky box which was difficult to do when taking into consideration that I have body parts stretch during transformation to the semi truck form.  I also thought I did a good job with the translations of the 
+car (it can't turn in place like the human form does).  I also followed through on my stretch goal of dynamic lighting, there's two balls that rotate one being the sun and one being the moon, the moon doesn't 
+actually give off any light, but the sun at certain angles will give off more or less light, when it's between 180 and 360 degrees it gives off none, and when it's at shallower angles it gives off less light 
+than at peak height to simulate dawn and dusk.  I also hit my stretch goal of having both a first person and a third person camera. 
+
+Other
+-----------------------------
+The dynamic lighting and movement/animation speed might be different on a better computer. To slow down the dynamic lighting on mine I've just divided double t in the idle() function with extra 0's
+
+That's all, have a great summer! 
